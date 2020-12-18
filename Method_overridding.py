@@ -9,17 +9,17 @@ class Parent:        # define parent class
    def __init__(self):
       print("Calling parent constructor")
 
-   def parentMethod(self):
+   def test(self):
       print('Calling parent method')
 
 class Child(Parent): # define child class
    def __init__(self):
       print("Calling child constructor")
 
-   def childMethod(self):
+   def test(self):
       print('Calling child method')
 
 c = Child()          # instance of child
 
-c.childMethod()      # child calls its method
-c.parentMethod()     # calls parent's method
+
+c.test()
